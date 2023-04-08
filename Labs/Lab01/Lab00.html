@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <title>LAB#00 de Programação WEB em html </title>
+    <link rel="stylesheet" href = "style.css">
+
+
+</head>
+
+<body>
+    <img src="inicio.png" alt="intro" width="1758" height="450" style="margin-right: 0%;">
+
+    <ul id="menu"> 
+        <li>Aprender HTML</li>
+        <li>Tutoriais</li>
+        <li>Dicas</li>
+        <li>Contacte-nos</li>
+    </ul>
+
+    <table>
+        <tr>
+          <td style="float:inline-start ;">
+            <h1>Aprender HTML</h1><br><br>
+            <div  id="Aprender">
+            <img class="image" src="aprenda.jpg"  alt="Imagem Inicio" width ="380" height="228" style="padding-top: 5%;">
+            <pr class="paragraph"  style="justify-content: center;">Desenvolvimento de uma página HTML.
+                  Siga as dicas abaixo indicadas para a construção deste website.</p>
+            </div>
+              
+          </td>
+          <td>
+            <h1>Tutoriais de HTML</h1><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CNiH_hkvcDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h1 id="dicas">Dicas</h1>
+            <ul class = "unorder">
+                <li>A imagem do header foi criada em <a href="https://www.canva.com/">https://www.canva.com/</a></li>
+                <li>Podem obter uma palete de cores através de aplicações online, como por exemplo <a href="http://www.colourco.de/">http://www.colourco.de/</a></li>
+                <li>O Menu deverá ser feito através de uma lista não ordenada. Para ter o aspeto pretendido devem atribuir os seguintes estilos:<br>
+                <ul class="sublist">
+                    <li>display: inline
+                    </li>
+                    <li>list-style-type: none</li>
+                    <li>text-decoration: none</li>
+                </ul></li>
+                <li>Aprender HTML / Dicas e os Tutoriais deverão estar inseridos em uma tabela 2x2. A coluna Dicas deverá ocupar 70% da largura da<br>página. A coluna Tutoriais deve ocupar 2 linhas.página. A coluna Tutoriais deve ocupar 2 linhas.
+                </li>
+                <li>
+                  Os Tutoriais são iframes com vídeos do youtube
+                </li>
+                <li>O formulário de contacto está inserido num div. Deverá atribuir ao div os seguintes estilos:
+                  <ul class="sublist">
+                    <li>background-color: whitesmoke</li>
+                    <li>padding-left:100</li>
+                    <li>padding-top:30</li>
+                </ul>
+                </li>
+               <li>Os inputs do formulário deverão ter uma class associada que tenha a seguinte configuração:
+                <ul>
+                <li>width: 40%</li>
+                <li>line-height: 30px</li>
+                </ul>          
+              </ul>
+          </td>
+          <td>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cyuzt1Dp8X8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </td>
+        </tr>
+      </table>
+
+<div id="formulario">
+<form > 
+  <fieldset >
+    <div id="tudo">
+    <h1 id="titulo">Contacte-nos:</h1>
+    <h4 id="sub-titulo">Envie alguma sugestão ou dúvida</h4> <br>
+
+    <div >
+      <label for="nome"><strong>Nome Completo</strong> </label><br><br>
+      <input type="text" name="nome" id="nome" style="width: 40%; line-height: 30px;" required>
+    </div><br><br>
+
+    <div >
+      <label for="email"><strong>Email</strong></label><br><br>
+      <input type="email" name="email" id="email" style="width: 40%; line-height: 30px;" required>
+    </div><br><br>
+
+    <div >
+      <label for="tele"><strong>Telemóvel</strong></label><br><br>
+      <input type="tel" name="tele" id="tele" style="width: 40%; line-height: 30px;" required>
+    </div><br><br>
+
+  <div >
+    <label><strong>Mensagem</strong></label><br><br>
+    <textarea rows="10" style="width: 40%; line-height: 30px;" id="sms" name="sms"></textarea>
+  </div><br>
+
+  <div >
+    <label for="motivo"><p><strong>Motivo do Contacto:</strong></p></label>
+    <select id="motivo">
+          <option selected disabled value="" > Escolha o campo mais adequado</option>
+          <option>Ajuda</option>
+          <option>Dúvidas</option>
+          <option>Sugestões</option>
+    </select>
+  </div><br><br>
+
+  <div class="campo">
+    <label><strong>Como prefere ser contactado:</strong></label><br><br>
+    <input type="checkbox" name="tele1" id="escolha1" value="Telemóvel">
+    <label for="escolha1" > Telemóvel</label><br>
+    <input type="checkbox" name="email1" id="escolha2" value="Email">
+    <label for="escolha2" > Email </label><br>
+  </div><br>
+
+  <div class="campo">
+    <label><strong>Data de Contacto:</strong></label>
+    <input type="date">
+  </div><br>
+
+  <button  class="button" type="submit" >Submeter</button>
+  <button class="button" type="reset">Cancelar</button>
+
+</div>
+</fieldset>
+</form>
+</div>
+    
+<ul id="barrafinal"> 
+  <li style="margin-left: 40% ;">Copyright © 2023</li>
+</ul>
+
+</body>
+</html>

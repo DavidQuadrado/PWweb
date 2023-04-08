@@ -1,0 +1,36 @@
+body{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+table, th , td{
+    border-collapse: collapse;
+    border: 1px solid;
+    border-color: black;
+}
+
+div{
+    border: 1px outset black;
+    background-color: whitesmoke;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.aluno{
+    padding: 8px ;
+}
+
+.cortabela {
+    background-color:deepskyblue;
+    color: black;
+}
+
+.corvermelha{
+    background-color: red;
+    color: black;
+}
+
+.corverde{
+    background-color:greenyellow;
+    color:black;
+}

@@ -1,0 +1,68 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'TrebuchetMS', sans-serif;
+    font-size: 18px;
+    margin: 2%;
+}
+
+#topdiv{
+    background-image: url(bb.jpg);
+  
+    text-align: left;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 30px 80px;
+    color: #ffffff;
+    font-size: 28px;
+    
+}
+
+#mundo{
+    background-color:blanchedalmond;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title {
+    font: 28px;
+}
+
+.divdestination{
+    padding: 50px;
+}
+
+a {
+    background-color: darkturquoise;
+    color: white;
+    border: 2px solid darkturquoise;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: White;
+    color: darkturquoise;
+    border: 2px solid darkturquoise;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#ben li {
+    margin-bottom: 15px;
+}
+
+#johncena {
+    background-color:dimgray;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:  #fff;
+    padding:15px;
+    text-decoration: none;
+}

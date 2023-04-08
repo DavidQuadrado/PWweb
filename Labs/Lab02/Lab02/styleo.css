@@ -1,0 +1,27 @@
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    resize: none;
+    background-color: #ffff;
+}
+
+#enviar {
+    width: 10%;
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+
+#forms {
+    margin: 5%;
+    padding-top: 0%;
+}
