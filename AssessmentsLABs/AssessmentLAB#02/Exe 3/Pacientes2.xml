@@ -1,0 +1,16 @@
+<Pacientes>
+    <Paciente  id="1" Genero="M" Idade="16" Medico="Dr. Marcelo Pereira">
+        <nome>Miguel Antunes</nome>
+        <ano>2007</ano>
+        <BI>29878167</BI>
+        <contribuinte>298716726</contribuinte>
+        <sistemaSaude>Multicare</sistemaSaude>
+    </Paciente>
+
+    <Paciente  id="2" Genero="F" Idade="13" Medico="Dra. Josefina Fontes">
+        <nome>Juliana Mendes</nome>
+        <BI>39817623</BI>
+        <contribuinte>187676543</contribuinte>
+        <SistemaSaude>Médis</SistemaSaude>
+        </Paciente>
+</Pacientes>
