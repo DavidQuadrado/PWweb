@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personagens - HIMYM</title>
+    </head>
+
+    <body>
+        <p id="exterior"></p>
+        <script>
+                var nome = prompt("Introduza uma personagem do: How I met Your Mother: ");
+
+                function quote(personagem_fala){
+                    switch(personagem_fala){
+                        case "Marshall":
+                            return "I Have One. It's Called My Marriage License.";
+                        case "Barney":
+                            return "Legen — Wait For It — Dary!";
+                        case "Lily":
+                            return "That's Love, Bitch!";
+                        case "Ted":
+                            return "My Parents Live In Ohio. I Live In The Moment.";
+                        case "Robin":
+                            return "You Can't Just Jump To The End. The Journey Is The Best Part.";
+                        default:
+                            return "Inseriu um input inválido, por favor tente (Marshall/Barney/Lily/Ted/Robin)";      
+                    }
+                }
+                //Escreve na consola 
+                console.log(quote(nome)); // na consola escrever "console.log(quote("Ted"))"
+
+        </script>
+    </body>
+
+</html>

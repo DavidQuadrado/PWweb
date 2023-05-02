@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "Exe4.css">
+    <title>Registo_Dados_Idades</title>
+</head>
+
+<body>
+
+    <script>
+        function registo() {
+
+            let number = prompt("Insira o número de registos a criar");
+            let array = [];
+
+            for (let i = 0; i < number; i++) {
+                let name = prompt("Insira o nome do utilizador");
+                let age = prompt("Insira a idade do utilizador");
+
+                let users = {
+                    name: name,
+                    age: parseInt(age)
+                }
+                array.push(users);
+            }
+            document.getElementById("num").innerHTML = document.getElementById("num").innerHTML + array.length + "//";
+
+            var maior = 0;
+            for (let i = 0; i < array.length; i++) {
+                if (array[i].age > maior) {
+                    maior = array[i].age;
+                }
+            }
+            document.getElementById("max").innerHTML = document.getElementById("max").innerHTML + maior + "//";
+
+            let menor = 199 ; // vai ser o valor máximo para o menor
+            for (let i = 0; i < array.length; i++) {
+                if (array[i].age < menor) {
+                    menor = array[i].age;
+                }
+            }
+            document.getElementById("min").innerHTML = document.getElementById("min").innerHTML + menor + "//";
+
+
+            let soma = 0;
+            for (let i = 0; i < array.length; i++) {
+                soma += array[i].age;
+            }
+
+            let average = soma / array.length;
+            document.getElementById("media").innerHTML = document.getElementById("media").innerHTML + average + "//";
+        }
+    </script>
+
+
+    <h1>Dados sobre as Idades</h1>
+    <div>
+        <label id="num">Nº de Participantes: </label> <br>
+        <label id="media">Média das Idades: </label> <br>
+        <label id="min">Idade mínima: </label> <br>
+        <label id="max">Idade máxima: </label> <br>
+    </div>
+    <input  id="regist" type="button" value="Registo" onclick="registo()">
+    
+
+</body>
+
+</html>

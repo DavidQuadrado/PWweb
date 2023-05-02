@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Figuras Geométricas</title>
+    </head>
+    <body>
+        <script>
+            
+            function poligono(num){    // na consola chamar por "poligono(num)"
+                var type;
+                switch(num)
+                {
+                    case 3:
+                        type = "triângulo";
+                        break;
+                    case 4:
+                        type = "quadrilátero";
+                        break;
+                    case 5:
+                        type = "penta"; 
+                        break;
+                    case 6:
+                        type = "hexa"; 
+                        break;
+                    case 7:
+                        type = "hepta"; 
+                        break;
+                    case 8:
+                        type = "octa"; 
+                        break;
+                    case 9:
+                        type = "enea"; 
+                        break;
+                    case 10:
+                        type = "deca";  
+                        break;
+                    default :
+                        type = "Nº de lados deve ser um valor compreendido entre 3 e 10"   
+                        break;     
+                }
+                if (num > 4 && num < 11){
+                    return type+"gono";
+                }
+                else{
+                    return type;
+                }
+            }
+
+        </script>
+    </body>
+</html>

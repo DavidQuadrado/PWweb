@@ -1,0 +1,13 @@
+body{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    background-color: #ffffff;
+    margin: 20px;
+    line-height: 1.5;
+    padding-left: 35%;
+    padding-top: 10%;
+}
+
+#regist {
+    background-color: aqua;
+}
